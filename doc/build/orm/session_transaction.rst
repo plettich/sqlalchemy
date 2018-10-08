@@ -163,7 +163,7 @@ complete.
 
     "autocommit" mode is a **legacy mode of use** and should not be
     considered for new projects.   If autocommit mode is used, it is strongly
-    advised that the application at least ensure that tranasction scope
+    advised that the application at least ensure that transaction scope
     is made present via the :meth:`.Session.begin` method, rather than
     using the session in pure autocommit mode.
 
